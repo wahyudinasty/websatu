@@ -14,7 +14,7 @@ export default function About() {
               Saya <span className="text-white font-medium">Wahyudi</span>, founder dari{" "}
               <span className="text-[#00e6a8] font-semibold">WahyudiFX</span> — platform trading & edukasi
               yang dibangun dengan filosofi: <span className="text-white">disiplin, data, dan konsistensi</span>.
-              Karir trading saya dimulai tahun 2017, dari retail trader hingga mengelola portofolio
+              Karir trading saya dimulai tahun 2024, dari retail trader hingga mengelola portofolio
               institusional dan membangun komunitas trader profitable.
             </p>
             <p>
