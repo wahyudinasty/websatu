@@ -79,7 +79,7 @@ function PortfolioCard() {
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-xs text-gray-500 uppercase tracking-wider">Portfolio Performance</div>
-          <div className="text-2xl font-bold font-mono mt-1">$-2500</div>
+          <div className="text-2xl font-bold font-mono text-[#fc3705] mt-1">$-2500</div>
         </div>
         <div className="text-right">
           <div className="text-xs text-gray-500 uppercase tracking-wider">YTD Return</div>
