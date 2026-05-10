@@ -14,6 +14,7 @@
 }
 
 @layer base {
+  <body class="overflow-x-hidden">
   html, body, #root {
     background: var(--color-bg);
     color: #e6e9ef;
