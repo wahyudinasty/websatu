@@ -66,11 +66,25 @@ function Stat({ value, label }: { value: string; label: string }) {
 
 function PortfolioCard() {
   const points = [
-   [0, 80], [10, 75], [20, 78], [30, 65], [40, 70],
-[50, 55], [60, 58], [70, 42], [80, 48], [90, 30], [100, 22]
+    [0, 20],
+    [10, 28],
+    [20, 35],
+    [30, 42],
+    [40, 50],
+    [50, 58],
+    [60, 65],
+    [70, 72],
+    [80, 80],
+    [90, 88],
+    [100, 95]
   ];
-  const path = points.map((p, i) => `${i === 0 ? "M" : "L"} ${p[0]} ${p[1]}`).join(" ");
+
+  const path = points
+    .map((p, i) => `${i === 0 ? "M" : "L"} ${p[0]} ${p[1]}`)
+    .join(" ");
+
   const area = `${path} L 100 100 L 0 100 Z`;
+}
 
   return (
     <div className="glass rounded-2xl p-6 relative">
