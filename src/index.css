@@ -14,9 +14,10 @@
 }
 
 @layer base {
-  <body class="overflow-x-hidden">
+  
   html, body, #root {
     background: var(--color-bg);
+    overflow-x: hidden;
     color: #e6e9ef;
     font-family: var(--font-display);
     -webkit-font-smoothing: antialiased;
