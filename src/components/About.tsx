@@ -53,11 +53,11 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 const credentials = [
   {
     title: "Founder WahyudiFX",
-    desc: "Membangun ekosistem trading profesional sejak 2019.",
+    desc: "Membangun ekosistem trading profesional sejak 2024.",
     icon: <Icon path="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />,
   },
   {
-    title: "8+ Tahun Aktif",
+    title: "2 Tahun Aktif",
     desc: "Pengalaman live trading di siklus bull, bear, dan sideways.",
     icon: <Icon path="M12 8v4l3 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />,
   },
