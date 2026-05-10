@@ -42,7 +42,7 @@ export default function Hero() {
 
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-lg">
             <Stat value="2+" label="Tahun Pengalaman" />
-            <Stat value="$-2,500" label="AUM Yang Hilang" />
+            <Stat value="$-2500" label="AUM Yang Hilang" />
             <Stat value="3%" label="Win Rate" />
           </div>
         </div>
