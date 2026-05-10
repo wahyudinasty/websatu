@@ -41,9 +41,9 @@ export default function Hero() {
           </div>
 
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-lg">
-            <Stat value="8+" label="Tahun Pengalaman" />
-            <Stat value="$2.4M" label="AUM Dikelola" />
-            <Stat value="73%" label="Win Rate" />
+            <Stat value="2+" label="Tahun Pengalaman" />
+            <Stat value="Rp -40Jt" label="AUM Yang Hilang" />
+            <Stat value="3%" label="Win Rate" />
           </div>
         </div>
 
@@ -79,11 +79,11 @@ function PortfolioCard() {
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-xs text-gray-500 uppercase tracking-wider">Portfolio Performance</div>
-          <div className="text-2xl font-bold font-mono mt-1">$487,250.34</div>
+          <div className="text-2xl font-bold font-mono mt-1">Rp.-40.000.00</div>
         </div>
         <div className="text-right">
           <div className="text-xs text-gray-500 uppercase tracking-wider">YTD Return</div>
-          <div className="text-2xl font-bold font-mono text-[#00e6a8] mt-1">+34.8%</div>
+          <div className="text-2xl font-bold font-mono text-[#00e6a8] mt-1">-99%</div>
         </div>
       </div>
 
