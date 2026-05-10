@@ -83,7 +83,7 @@ function PortfolioCard() {
         </div>
         <div className="text-right">
           <div className="text-xs text-gray-500 uppercase tracking-wider">YTD Return</div>
-          <div className="text-2xl font-bold font-mono text-[#00e6a8] mt-1">-99%</div>
+          <div className="text-2xl font-bold font-mono text-[#fc3705] mt-1">-99%</div>
         </div>
       </div>
 
@@ -118,12 +118,12 @@ function PortfolioCard() {
 
       <div className="mt-5 pt-5 border-t border-white/5 grid grid-cols-3 gap-4 text-center">
         <div>
-          <div className="text-xs text-gray-500">Sharpe</div>
-          <div className="font-mono font-semibold mt-1">2.41</div>
+          <div className="text-xs text-gray-500">Mentality</div>
+          <div className="font-mono font-semibold mt-1">-10</div>
         </div>
         <div>
           <div className="text-xs text-gray-500">Max DD</div>
-          <div className="font-mono font-semibold mt-1 text-[#ff4d6d]">-6.2%</div>
+          <div className="font-mono font-semibold mt-1 text-[#fc3705]">-99%</div>
         </div>
         <div>
           <div className="text-xs text-gray-500">Profit Factor</div>
