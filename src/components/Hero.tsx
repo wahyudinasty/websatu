@@ -42,7 +42,7 @@ export default function Hero() {
 
           <div className="mt-12 grid grid-cols-3 gap-6 max-w-lg">
             <Stat value="2+" label="Tahun Pengalaman" />
-            <Stat value="Rp -40Jt" label="AUM Yang Hilang" />
+            <Stat value="$-2500" label="AUM Yang Hilang" />
             <Stat value="3%" label="Win Rate" />
           </div>
         </div>
@@ -79,7 +79,7 @@ function PortfolioCard() {
       <div className="flex items-center justify-between mb-4">
         <div>
           <div className="text-xs text-gray-500 uppercase tracking-wider">Portfolio Performance</div>
-          <div className="text-2xl font-bold font-mono mt-1">Rp.-40.000.00</div>
+          <div className="text-2xl font-bold font-mono mt-1">$-2500</div>
         </div>
         <div className="text-right">
           <div className="text-xs text-gray-500 uppercase tracking-wider">YTD Return</div>
@@ -107,7 +107,7 @@ function PortfolioCard() {
             key={r}
             className={`flex-1 py-1.5 rounded-md text-xs font-mono transition ${
               r === "1Y"
-                ? "bg-[#00e6a8]/15 text-[#00e6a8] border border-[#00e6a8]/30"
+                ? "bg-[#f51307]/15 text-[#c20d04] border border-[#e64500]/30"
                 : "text-gray-500 hover:text-gray-300 border border-transparent"
             }`}
           >
